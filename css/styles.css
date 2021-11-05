@@ -1,0 +1,186 @@
+
+
+*{
+font-family: "Monserrat";
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+/*La marge du site*/
+body {
+	margin:0 auto;
+}
+
+/*Tete de page*/
+header.header{
+	display: flex;
+	align-items: center;
+}
+
+/* La dimension du logo*/
+header.header img{
+	width: 150px;
+}
+
+/* La dimension du background*/
+section.top-page {
+	background: url("../Images/Croix.jpg");
+	background-size: cover;
+	height:250vh;
+	width:190vh;
+	padding: 30px 50px;
+}
+
+landing-page{
+position: relative;
+padding: 20px 50px;
+}
+
+/* Time,wast.....*/
+.big-title{
+color: #b30000;
+font-size: 60px;
+font-family:"Segoe Script", cursive;
+font-weight: 60;
+justify-content: space-around;
+padding: 20px 50px;
+}
+
+/*Bouton scroll*/
+.scroll-down{
+color: blue;
+text-decoration: none;
+position: absolute;
+bottom: 0;
+}
+
+/* Menu de navigation*/
+nav.nav{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 300px;
+	margin-left: 20px;
+}
+
+/*Accueil....*/
+nav.nav li a{
+	color: black;
+	font-size: 30px;
+	font-family: "Chiller",cursive;
+	text-decoration: none;
+	
+}
+
+/*footer{
+display: cursive;
+background:url("../Images/Croix.jpg");
+background-size: cover;
+height:10vh;
+width:190vh;
+padding: 30px 50px;
+}*/
+/*Foot*/
+.f-pa{
+display: flex;
+justify-content: flex-end;
+bottom:1px;
+color: black;
+}
+
+/*services*/
+
+.services{
+display: flex;
+justify-content: space-evenly;
+margin:60px;
+}
+.service-item{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.path-icon{
+font-size: 60px;
+color: #3333cc;
+}
+
+.service-details{
+font-weight: 600;
+width: 200 px;
+text-align: center;
+}
+
+/*Récement ajoutés*/
+.section-title{
+font-size: 30px;
+font-family: "abril fatface", cursive;
+font-weight: 800;
+position: relative;
+}
+.section-title::before{
+content: "";
+position: absolute;
+background-color: #3333cc;
+width: 40px;
+height: 7px;
+bottom:0;
+}
+
+.recents-items{
+margin-left:20px;
+}
+
+.best-chap{
+background-color: white;
+min-height: 500px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.chap-box{
+position: relative;
+background-size: cover;
+background-position: center;
+
+}
+
+.no-grid{
+min-width:430px;
+height: 500px;
+flex: 1;
+}
+
+.chap1{
+background-image: url(../Images/Imchap/Chap1.png);
+}
+.chap2{
+background-image: url(../Images/Imchap/Chap2.png);
+}
+.chap3{
+background-image: url(../Images/Imchap/Chap3.png);
+}
+
+.chap-details{
+position: absolute;
+width: 100%;
+bottom:0;
+background-color:#b3b3b3;
+padding: 5px 20px;
+}
+
+.chap-name{
+font-size: 22px;
+font-weight: 600;
+line-height:3px
+}
+
+.chap-number{
+color: #3333cc;
+line-height:3px;
+font-size:14px;
+font-weight:800;
+}
